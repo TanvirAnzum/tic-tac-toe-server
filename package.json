@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe-server",
+  "version": "1.0.0",
+  "description": "server side of async tic tac toe game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "mongodb"
+  ],
+  "author": "Md. Tanvir Anzum",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/mongo-emitter": "^0.1.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.13.0",
+    "socket.io": "^4.5.4"
+  }
+}
